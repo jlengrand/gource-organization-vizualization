@@ -1,6 +1,8 @@
 #!/bin/sh
 
-rm -rf *.txt; rm -rf *.txt-r
+# Doc for gource is here : https://github.com/acaudwell/Gource/wiki/Visualizing-Multiple-Repositories
+
+#rm -rf *.txt; rm -rf *.txt-r; rm gource.ppm; mv gource.mp4 gource.mp4.bak
 
 for OUTPUT in $(ls . | grep adyen)
 do
@@ -20,10 +22,10 @@ gource  -1920x1080 \
         --hide usernames \
         --hide files \
         --logo logo.png \
-        --logo-offset 900x600 \
+        --logo-offset 1370x830 \
         --title "Adyen on GitHub, 2021" \
         --start-date "2021-01-01" \
-        --stop-date "2022-01-01" \
+        --stop-date "2021-12-20" \
         --max-files 100 \
         --highlight-dirs \
         combined.txt \

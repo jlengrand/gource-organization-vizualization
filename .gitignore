@@ -1,2 +1,7 @@
 adyen*
 .github
+gource.ppm
+gource.mp4
+*.txt
+*.mp4
+.DS_Store
