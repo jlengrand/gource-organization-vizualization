@@ -5,3 +5,4 @@ gource.mp4
 *.txt
 *.mp4
 .DS_Store
+*.bak
