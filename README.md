@@ -20,6 +20,9 @@ The scripts also make use of the [GitHub Search queries](https://docs.github.com
 
 _Note: These scripts are meant to run on all repositories in the Adyen organization. You will need to update the values to fit your needs_
 
+_Note2: In my case, those scripts only run on public data, be mindful when running those scripts on your own data :)_
+
+
 ### clone.sh
 
 This is the first script you want to run. It clones all the repositories in the Adyen organization. You want to change the `orgs/adyen/` part of the URL to your own organization.
